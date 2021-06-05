@@ -1,0 +1,38 @@
+body{
+  text-align:center;
+  background: linear-gradient(#E1BEE7 50%, #90CAF9 100%);
+}
+img{
+  width: 175px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
+div{
+  background-color:Black;
+  height:6px;
+  width:70px;
+  margin:8px auto;
+}
+.menu {
+    position: fixed;
+    background: pink;
+    width: 100%;
+    margin-top: 0px;
+    top: 0px;
+    z-index: 10;
+}
+
+.links {
+    display: inline;
+    color: #fff;
+    padding-top: 5px;
+    padding-left: 33px;
+    padding-right: 25px;
+    padding-bottom: 5px;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.links:hover {
+    background-color: dodgerblue;
+}
